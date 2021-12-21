@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	bool played = PlaySound(TEXT("BGM.wav"), NULL, SND_SYNC);
+	bool played = PlaySound(TEXT("people-stadium-cheer1.wav"), NULL, SND_SYNC);
 	printf("played = %d\n", played);
 	return 0;
 }
