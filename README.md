@@ -8,6 +8,7 @@ tutorial : https://www.youtube.com/watch?v=9WeDQHi6sJs
 using namespace std;
 
 int main() {
+	//if youre trying to use this in a game, replace SND_SYNC with SND_ASYNC so that it doesn't pause your game to play the sound
 	bool played = PlaySound(TEXT("people-stadium-cheer1.wav"), NULL, SND_SYNC);
 	printf("played = %d\n", played);
 	return 0;
