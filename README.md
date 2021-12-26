@@ -19,3 +19,7 @@ int main() {
 
 屬性>連結器>輸入>其他相依姓: `Winmm.lib`
 
+### load img
+using stb_image.h  
+https://learnopengl.com/getting-started/textures  
+https://github.com/nothings/stb/blob/master/stb_image.h
