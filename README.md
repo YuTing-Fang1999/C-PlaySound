@@ -1,5 +1,8 @@
 # Playing Sound Files in C++ using Visual Studio  
 tutorial : https://www.youtube.com/watch?v=9WeDQHi6sJs  
+### vs2019 setup
+
+屬性>連結器>輸入>其他相依姓: `Winmm.lib`
 
 ### code
 ```
@@ -14,10 +17,11 @@ int main() {
 	return 0;
 }
 ```
+another way
+```
+mciSendString(TEXT("play \"people-stadium-cheer1.wav\" "), NULL, 0, NULL)
+```
 
-### vs2019 setup
-
-屬性>連結器>輸入>其他相依姓: `Winmm.lib`
 
 ### load img
 using stb_image.h  
